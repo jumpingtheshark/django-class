@@ -1,0 +1,10 @@
+manage.py
+
+    python manage.py runserver
+
+
+
+djang-admin
+
+
+probaly later this damn thing will become folders, but for now it's like this. 
