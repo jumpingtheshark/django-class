@@ -45,6 +45,10 @@ To https://github.com/jumpingtheshark/django-class.git
 
 
 
+PROGRESS
+2-23: 
+11:30 am
+26-templates (7 mins)
 
 
 
