@@ -36,6 +36,34 @@ password_generator/commands.txt
 
 
 
+C:\Users\Michael\git\django-class>git add -A
+
+C:\Users\Michael\git\django-class>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   git-help.txt
+        new file:   mike/django-commands.txt
+        renamed:    password_generator/password_generator/commands.txt -> mike/git-commands.txt  
+        renamed:    password_generator/generator/progress.txt -> mike/progress.txt
+
+
+
+
+
+
+
+
+
+C:\Users\Michael\git\django-class>git commit -m "cleanup"
+[main a3302ea] cleanup
+ 4 files changed, 31 insertions(+), 11 deletions(-)
+ create mode 100644 mike/django-commands.txt
+ rename password_generator/password_generator/commands.txt => mike/git-commands.txt (83%)        
+ rename {password_generator/generator => mike}/progress.txt (100%)
+
 
 
 
