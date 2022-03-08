@@ -1,19 +1,17 @@
-manage.py
-
-    python manage.py runserver
-    startapp <generator>
-
-
-
-djang-admin
-
-
-probaly later this damn thing will become folders, but for now it's like this. 
+ git clone https://jumpingtheshark:<gitkey>B@github.com/jumpingtheshark/django-class.git
 
 
 
 
-GIT 
+
+
+
+
+
+
+
+
+
 
 C:\Users\Michael\git\django-class\password_generator>git status
 On branch main
@@ -32,6 +30,18 @@ Untracked files:
 
 password_generator/commands.txt
 
+
+
+
+
+
+
+
+
+
+
+
+
 C:\Users\Michael\git\django-class\password_generator>git push
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
@@ -45,10 +55,6 @@ To https://github.com/jumpingtheshark/django-class.git
 
 
 
-PROGRESS
-2-23: 
-11:30 am
-26-templates (7 mins)
 
 
 

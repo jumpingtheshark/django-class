@@ -1,0 +1,14 @@
+MANAGE.PY
+
+    python manage.py runserver
+    startapp <generator> - this will start a new app 
+
+
+
+DJANGO-ADMIN
+
+
+probaly later this damn thing will become folders, but for now it's like this. 
+
+
+ 
