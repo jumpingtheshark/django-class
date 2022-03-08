@@ -1,0 +1,3 @@
+? length
+? use special characters
+? use numbers   

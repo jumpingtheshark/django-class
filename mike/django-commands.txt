@@ -8,7 +8,11 @@ MANAGE.PY
 DJANGO-ADMIN
 
 
-probaly later this damn thing will become folders, but for now it's like this. 
+probaly later this damn thing will become folders, but for now it's like this.
+
+
+
+pip list
 
 
  

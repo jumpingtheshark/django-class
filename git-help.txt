@@ -1,1 +1,0 @@
- git clone https://jumpingtheshark:<gitkey>B@github.com/jumpingtheshark/django-class.git
