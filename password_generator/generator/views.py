@@ -15,8 +15,21 @@ def password1 (request):
 def password2 (request):
     # https://www.geeksforgeeks.org/type-conversion-python/
     lchar=request.GET.get('len')
+    '''
+      <input type="checkbox" id="schars" name="schars">
+
+    <label for="schars">Special Characters</label>
+    <br>
+  
+    <input type="checkbox" id="useCaps" name="useCaps">
+    <label for="useCaps">use caps</label>
+    <Br>
+    <input type = "submit" value = "Generate password" >
+    </form>
+    '''
     #return HttpResponse (lchar)
     length=int(lchar)
+    
     p=''
     chars = 'abcdefghijklmonpqrstuvwxyz'
     for x in range (length):

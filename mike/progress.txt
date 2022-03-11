@@ -1,3 +1,4 @@
-DATE    TIME             SECTION                        SECTION-TIME  ACTUAL-TIME                         
-2-23    11:30 am         26- templates                  7 mins        2.5 hrs
-2-23    12:45 pm         27-forms                       10 mins       1.25 hrs (75 mins)  
+DATE    TIME             SECTION                                SECTION-TIME    ACTUAL-TIME             C                    
+2-23    11:30 am         26- templates                          7 mins          2.5 hrs                  
+2-23    12:45 pm         27-forms                               10 mins         1.25 hrs (75 mins)      
+3-8     11 am-4pm        28,29 (passsowrds, forms data)         19 mins         5 hrs (300 mins)       1:60                     
