@@ -19,24 +19,32 @@ def password2(request):
 
     '''
       <input type="checkbox" id="schars" name="schars">
-
-    <label for="schars">Special Characters</label>
-    <br>
-  
     <input type="checkbox" id="useCaps" name="useCaps">
-    <label for="useCaps">use caps</label>
-    <Br>
-    <input type = "submit" value = "Generate password" >
-    </form>
     '''
     # return HttpResponse (lchar)
     length = int(lchar)
-
-    print (length)
+    scars = request.GET.get('schars')
+    useCaps = request.GET.get('useCaps')
+    print(scars)
 
     p = ''
     chars = 'abcdefghijklmonpqrstuvwxyz'
+
+    if useCaps is not None:
+        chars = 'abcdefghijklmonpqrstuvwxyzABCDEFGHIJKMLM'
+
     for x in range(length):
         p += random.choice(chars)
+
+    numbers ='0123456789'
+
+    for x in range(3):
+        p+= random.choice(numbers)
+
+
+
+    if scars is not None:
+        l_scars= "!@#$%%"
+        p+=random.choice(l_scars)
 
     return render(request, 'generator/password2.html', {'password': p})
