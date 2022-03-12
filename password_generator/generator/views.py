@@ -26,7 +26,7 @@ def password2(request):
     scars = request.GET.get('schars')
     useCaps = request.GET.get('useCaps')
     print(scars)
-
+    #change
     p = ''
     chars = 'abcdefghijklmonpqrstuvwxyz'
 
