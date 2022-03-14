@@ -6,6 +6,9 @@ import random
 # Create your views here.
 
 def home(request):  # function added
+    return render(request, "generator/home.html")
+
+def home2(request):  # function added
     return HttpResponse("fuck you")
 
 
